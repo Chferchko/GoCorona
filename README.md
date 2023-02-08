@@ -1,0 +1,17 @@
+# <center id="anchor" >[GoCorona](chferchko.github.io/GoCorona/)</center>
+
+_<center> - small modern and cute landing page about this app - </center>_
+
+---
+
+#### Features
+- fully **responsive-adaptive** interface
+- realized **menu-burger** by _JavaScript_
+- added **video** in two formats - _mp4_ or _webm_
+	- default media player **settings have been** slightly **changed** with _JavaScript_ and _media API | HTML5_
+
+---
+
+<small> * _click on the image to view the layout of the site in Figma_ </small>
+
+[![Figma layout](img/MD_image.png)](https://www.figma.com/file/mkFvHlRXrR6tES0CtmO0WB/Gocorna-Website?node-id=0%3A1&t=lmlcQIfyC8YOgfZz-1)
