@@ -12,6 +12,6 @@ _small modern and cute landing page about this app_
 
 ---
 
-* _click on the image to view the layout of the site in Figma_
+\* _click on the image to view the layout of the site in Figma_
 
 [![Figma layout](img/MD_image.png)](https://www.figma.com/file/mkFvHlRXrR6tES0CtmO0WB/Gocorna-Website?node-id=0%3A1&t=lmlcQIfyC8YOgfZz-1)
