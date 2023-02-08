@@ -1,6 +1,6 @@
-# <center id="anchor" >[GoCorona](chferchko.github.io/GoCorona/)</center>
+# [GoCorona](https://chferchko.github.io/GoCorona/)
 
-_<center> - small modern and cute landing page about this app - </center>_
+_ - small modern and cute landing page about this app - _
 
 ---
 
