@@ -1,6 +1,6 @@
 # [GoCorona](https://chferchko.github.io/GoCorona/)
 
-_small modern and cute landing page about this app_
+\- _small modern and cute landing page about this app_ -
 
 ---
 
