@@ -305,10 +305,6 @@ body {
   text-align: center;
 }
 
-.scroll-btn {
-  display: block;
-}
-
 /* ================================== Header ================================== */
 .header {
   position: absolute;
@@ -795,11 +791,11 @@ body {
     border-bottom: 2px solid black;
   }
   .header__button .download-icon svg {
-    animation-name: arrow-fx;
+    animation-name: dwnld-arrow-fx;
     animation-iteration-count: infinite;
     animation-duration: 2s;
   }
-  @keyframes arrow-fx {
+  @keyframes dwnld-arrow-fx {
     from {
       transform: translateY(-1px);
     }
@@ -984,9 +980,6 @@ body {
   }
   .footer {
     padding: 15px 0;
-  }
-  .scroll-btn {
-    display: none;
   }
 }
 @media (max-width: 567.98px) {

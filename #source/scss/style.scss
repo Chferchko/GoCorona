@@ -189,10 +189,6 @@ $maxWidthContainer: 1052;
 	}
 }
 
-.scroll-btn {
-	display: block;
-}
-
 /* ================================== Header ================================== */
 
 .header {
@@ -777,10 +773,10 @@ $maxWidthContainer: 1052;
 				background: none;
 				border-bottom: 2px solid black;
 				svg {
-					animation-name: arrow-fx;
+					animation-name: dwnld-arrow-fx;
 					animation-iteration-count: infinite;
 					animation-duration: 2s;
-					@keyframes arrow-fx {
+					@keyframes dwnld-arrow-fx {
 						from {
 							transform: translateY(-1px);
 						}
@@ -989,9 +985,6 @@ $maxWidthContainer: 1052;
 	}
 	.footer {
 		padding: 15px 0;
-	}
-	.scroll-btn {
-		display: none;
 	}
 }
 
