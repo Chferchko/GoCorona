@@ -7,7 +7,7 @@
 #### Features
 - fully **responsive-adaptive** interface
 - realized **menu-burger** by _JavaScript_
-- added **video** in two formats - _mp4_ or _webm_
+- added **video** in two formats - _webm_ or _mp4_
 	- default media player **settings have been** slightly **changed** with _JavaScript_ and _media API | HTML5_
 
 ---
