@@ -1,4 +1,4 @@
-# [GoCorona](chferchko.github.io/GoCorona/)
+# [GoCorona](http://chferchko.github.io/GoCorona/)
 
 \- _small modern and cute landing page about this app_ -
 
