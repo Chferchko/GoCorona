@@ -332,6 +332,9 @@ body {
   display: flex;
   justify-content: end;
 }
+.header__button .download-icon {
+  display: none;
+}
 
 .menu__list {
   display: flex;
@@ -780,7 +783,32 @@ body {
   .header__button {
     position: relative;
     z-index: 30;
-    margin: 0px 20px 0px 0px;
+    margin: 0px 30px 0px 0px;
+  }
+  .header__button a {
+    display: none;
+  }
+  .header__button .download-icon {
+    display: block;
+    padding: 0px;
+    background: none;
+    border-bottom: 2px solid black;
+  }
+  .header__button .download-icon svg {
+    animation-name: arrow-fx;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+  }
+  @keyframes arrow-fx {
+    from {
+      transform: translateY(-1px);
+    }
+    50% {
+      transform: translateY(2px);
+    }
+    to {
+      transform: translateY(-1px);
+    }
   }
   .menu__list {
     position: fixed;
@@ -968,9 +996,6 @@ body {
   }
   .text-block__title {
     font-size: 34px;
-  }
-  .button a {
-    display: block;
   }
   .info__statistic {
     flex: 0 1 auto;
