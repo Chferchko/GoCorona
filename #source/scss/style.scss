@@ -761,6 +761,7 @@ $maxWidthContainer: 1052;
 			z-index: 30;
 		}
 		&__button {
+			flex: 0 1 auto;
 			position: relative;
 			z-index: 30;
 			margin: 0px 30px 0px 0px;
@@ -989,12 +990,6 @@ $maxWidthContainer: 1052;
 }
 
 @media (max-width: 567.98px) {
-	.header {
-		&__logo {
-			max-width: 45px;
-			overflow: hidden;
-		}
-	}
 	.text-block {
 		&__title {
 			font-size: 34px;
