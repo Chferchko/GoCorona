@@ -220,10 +220,10 @@ body {
 /* Адаптивное свойство */
 /* ================================== Шаблоны (в синтаксисе scss) ================================== */
 /* Адаптивное изображение */
-.intro__image {
+.intro__media {
   position: relative;
 }
-.intro__image img {
+.intro__media img {
   position: absolute;
   top: 0;
   left: 0;
@@ -395,7 +395,7 @@ body {
 .intro__text-block p {
   max-width: 320px;
 }
-.intro__image {
+.intro__media {
   flex: 1 1 50%;
   padding: 0px 0px 36% 0px;
   z-index: 2;
@@ -892,7 +892,7 @@ body {
   .intro__container::after {
     display: none;
   }
-  .intro__text-block, .intro__image {
+  .intro__text-block, .intro__media {
     flex: 1 1 100%;
   }
   .intro__text-block {
@@ -907,7 +907,7 @@ body {
   .intro__video {
     margin: 30px 0px 0px 0px;
   }
-  .intro__image {
+  .intro__media {
     padding: 0px 0px 72% 0px;
   }
   .app {
