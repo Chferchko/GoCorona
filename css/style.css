@@ -407,24 +407,27 @@ body {
   margin: 60px 0px 0px 0px;
 }
 .intro__video-play-button {
-  margin: 0px 12px 0px 0px;
-  transition: 0.3s;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid #4285f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
-.intro__video-play-button a svg {
-  transition: 0.3s;
-  fill: #fafbfd;
+.intro__video-play-button::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  background: url("data:image/svg+xml,%3Csvg width='12' height='14' viewBox='0 0 12 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.833336 1.51517L10.3333 7L0.833335 12.4848L0.833336 1.51517Z' stroke='%234285F4'/%3E%3C/svg%3E%0A") 3px center no-repeat;
 }
-.intro__video-play-button a path {
-  transition: 0.3s;
-  stroke: #4285f4;
-  fill: #fafbfd;
+.intro__video-play-button:hover::before {
+  content: "";
+  background: url("data:image/svg+xml,%3Csvg width='12' height='14' viewBox='0 0 12 14' fill='%234285f4' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.833336 1.51517L10.3333 7L0.833335 12.4848L0.833336 1.51517Z' stroke='%234285F4'/%3E%3C/svg%3E%0A") 3px center no-repeat;
 }
-.intro__video-play-button a:hover svg {
-  fill: #4285f4;
-}
-.intro__video-play-button a:hover path {
-  stroke: #ffffff;
-  fill: #4285f4;
+.intro__video-text {
+  margin: 0px 0px 0px 12px;
 }
 .intro__video-text p {
   line-height: 126%;
