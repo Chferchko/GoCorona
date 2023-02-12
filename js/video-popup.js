@@ -53,11 +53,11 @@ function lockDocumentContent() {
 function unlockDocumentContent() {
 	document.body.firstElementChild.style.paddingRight = ``;
 	document.body.querySelector('header').style.paddingRight = ``;	
-}
+};
 
 function unlockDocumentContentAfterTime() {
 	setTimeout(unlockDocumentContent, 500)
-}
+};
 	
 function onClickToVideoButtonEventHandler(event) {
 	toggleButtonStatus();
