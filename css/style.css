@@ -177,6 +177,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ================================== Технические стили ================================== */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
 body {
   font-family: Rubik;
   font-size: 12px;
